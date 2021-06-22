@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  devise_for :users, ActiveAdmin::Devise.config
   resources :categories, only: %i[index show]
   resources :authors, only: %i[index show]
   resources :quotes, only: %i[index show]
