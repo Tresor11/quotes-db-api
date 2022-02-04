@@ -1,9 +1,8 @@
-# frozen_string_literal: true
-
 Rails.application.routes.draw do
-  resources :categories, only: %i[index show]
-  resources :authors, only: %i[index show]
-  resources :quotes, only: %i[index show]
+  devise_for :users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+
+  # Defines the root path route ("/")
+  # root "articles#index"
 end
