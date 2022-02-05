@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/tagliala/activeadmin.git
-  revision: d1492c54e76871d95f3a7ff20e445b48f455d4cb
+  revision: 5d6dfbe086331ce0538cc726abfe2eebe0260f02
   branch: feature/railties-7
   specs:
     activeadmin (2.9.0)
@@ -129,7 +129,7 @@ GEM
       warden (~> 1.2.3)
     digest (3.1.0)
     erubi (1.10.0)
-    ffi (1.15.4)
+    ffi (1.15.5)
     formtastic (4.0.0)
       actionpack (>= 5.2.0)
     formtastic_i18n (0.7.0)
